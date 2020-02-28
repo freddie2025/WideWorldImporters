@@ -1,0 +1,4 @@
+﻿CREATE PARTITION SCHEME [PS_TransactionDateTime]
+    AS PARTITION [PF_TransactionDateTime]
+    TO ([USERDATA], [USERDATA], [USERDATA], [USERDATA], [USERDATA], [USERDATA]);
+
